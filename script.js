@@ -6,3 +6,7 @@ scrollbar.addEventListener("wheel" , (evt) => {
   evt.preventDefault();
 scrollbar.scrollLeft += evt.deltaY;
 })
+nextbtn.addEventListener('click' , ()=>{
+  scrollbar.style.scrollBehavior = "smooth";
+  scrollbar.scrollLeft +=900;
+  
